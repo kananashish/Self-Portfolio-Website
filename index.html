@@ -1,145 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashish Kanan Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3af4671a72.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
+
 <body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="yo/logo.png" alt="logo">
-            <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="yo/newlogo.png" alt="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Ashish </span><br>Kanan From India</h1>
+                <br>
+                <p>Who am <span>I?</span></p>
+                <h3 id="text-animation">I am <span id="typing"></span></h3>
                 
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>Developer | Copywriter | AI Engineer</p>
-            <h1>Hi, I'm <span>Ashish </span><br>Kanan From India</h1>
-        </div>
-
-    </div>   
-</div>  
-<!-- -----------about------------------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="yo/wow.png" alt="">
             </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>Currently navigating the thrilling intersection of language and technology as a college student, I'm on a mission to carve my niche in the realms of editing and development. Balancing the worlds of syntax and storytelling, I bring a unique blend of creativity and precision to every project. Excited about the endless possibilities that the freelance world offers. If you're looking for a meticulous editor or a creative developer—or if you just want to chat about the evolving landscapes of language and code—let's connect! Open to conversations, collaborations, and coffee (even virtual)! </p>
 
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+    </div>
+    <!-- -----------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="yo/background1.png" alt="">
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><Span>UI/UX</Span><br>Web app development</li>
-                        <li><Span>Web Development</Span><br>Designing Portfolio Website</li>
-                        <li><Span>Machine Learning</Span><br>Building Wine Quality Prediction </li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><Span>July,2023 - October,2023</Span><br>Organising Team at Tech Summit'23</li>
-                        <li><Span>October,2023 - Current</Span><br>Freelance Editor and Copywriting at freelance platforms</li>
-                        <li><Span>November,2023 - December,2023</Span><br>Data Science Internship at Bharat intern</li>
-                        <li><Span>October,2023 - December,2023</Span><br>Internship at International Model of United Nations</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><Span>B.tech (Information Technology)</Span><br>ABES Engineering College</li>
-                        <li><Span>Senior School</Span><br>DPS, Ranipur</li>
-                        <!-- <li><Span>High School</Span><br>DPS, Ranipur</li> -->
-                        
-                    </ul>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Currently navigating the thrilling intersection of language and technology as a college student,
+                        I'm on a mission to carve my niche in the realms of editing and development. Balancing the
+                        worlds of syntax and storytelling, I bring a unique blend of creativity and precision to every
+                        project. Excited about the endless possibilities that the freelance world offers. If you're
+                        looking for a meticulous editor or a creative developer—or if you just want to chat about the
+                        evolving landscapes of language and code—let's connect! Open to conversations, collaborations,
+                        and coffee (even virtual)! </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><Span>Copywriting</Span><br>Creating persuasive copy.</li>
+                            <li><Span>Web Development</Span><br>Designing Portfolio Website</li>
+                            <li><Span>Machine Learning</Span><br>Building Wine Quality Prediction </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><Span>October,2024 - December,2024</Span><br>Clearing ICPC Region 2024 exam.</li>
+                            <li><Span>July,2023 - October,2023</Span><br>Organising Team at Tech Summit'23</li>
+                            <li><Span>November,2023 - December,2023</Span><br>Data Science Internship at Bharat intern
+                            </li>
+                            <li><Span>October,2023 - December,2023</Span><br>Internship at International Model of United
+                                Nations</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><Span>B.tech (Information Technology)</Span><br>Dr. A. P. J. Abdul Kalam Technical University, Lucknow </li>
+                            <li><Span>Senior School</Span><br>DPS, Ranipur</li>
+                            <!-- <li><Span>High School</Span><br>DPS, Ranipur</li> -->
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div> 
-<!-- -----------------services------------------ -->
+    <!-- -----------------services------------------ -->
 
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">Skills I Offer</h1>
-        <div class="servies-list">
-            <div>
-                <i class="fa-solid fa-code"></i> 
-                <h2>Full Stack Development</h2>
-                <p>I offer comprehensive full stack development services, building robust and scalable web applications from the ground up. With expertise in both front-end and back-end technologies, I deliver seamless, high-performance solutions that meet your business needs. From interactive user interfaces to secure server-side functionality, I ensure your application is efficient, reliable, and ready for growth.</p>
-                <a href="#">Learn more</a>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills I Offer</h1>
+            <div class="servies-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>I offer comprehensive full stack development services, building robust and scalable web
+                        applications from the ground up. With expertise in both front-end and back-end technologies, I
+                        deliver seamless, high-performance solutions that meet your business needs. From interactive
+                        user interfaces to secure server-side functionality, I ensure your application is efficient,
+                        reliable, and ready for growth.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Machine Learning & AI</h2>
+                    <p>I offer advanced machine learning and AI solutions to help you leverage data for smarter
+                        decision-making. From developing predictive models to implementing intelligent algorithms, I
+                        create tailored solutions that enhance automation, optimize processes, and provide actionable
+                        insights. Whether it's natural language processing, image recognition, or data analysis, I
+                        deliver powerful AI-driven applications to meet your specific needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Copywriting</h2>
+                    <p>I offer professional copywriting services that turn ideas into impactful, engaging content. From
+                        website copy and product descriptions to email campaigns, I create clear, persuasive, and
+                        SEO-friendly content designed to connect with your audience and drive results. Let’s work
+                        together to elevate your brand with words that inspire action.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
             </div>
-            <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>Machine Learning & AI</h2>
-                <p>I offer advanced machine learning and AI solutions to help you leverage data for smarter decision-making. From developing predictive models to implementing intelligent algorithms, I create tailored solutions that enhance automation, optimize processes, and provide actionable insights. Whether it's natural language processing, image recognition, or data analysis, I deliver powerful AI-driven applications to meet your specific needs.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>Copywriting</h2>
-                <p>I offer professional copywriting services that turn ideas into impactful, engaging content. From website copy and product descriptions to email campaigns, I create clear, persuasive, and SEO-friendly content designed to connect with your audience and drive results. Let’s work together to elevate your brand with words that inspire action.</p>
-                <a href="#">Learn more</a>
-            </div>
-            
+
+
         </div>
- 
-
     </div>
-</div>
 
-<!-- -------------portfolio-------------- -->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1> 
-        <div class="work-list">
-            <div class="work">
-                <img src="images/work-1.png" alt="">
-                <div class="layer">
-                    <h3>Portfolio Website</h3>
-                    <p>Developed a funcitoning portfolio webiste.</p>
-                    <a onclick="alert('That is all for now.')" href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    
+    <!-- -------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Developed a funcitoning portfolio webiste.</p>
+                        <a onclick="alert('That is all for now.')" href="#"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Machine Learning Model</h3>
+                        <p>Built a wine quality prediction model using algorithms in machine learning.</p>
+                        <a onclick="alert('That is all for now.')" href="#"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Copywriting</h3>
+                        <p>Creating copy for products and services which convert into high sales.</p>
+                        <a onclick="alert('That is all for now.')" href="#"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
                 </div>
             </div>
-            <div class="work">
-                <img src="images/work-2.png" alt="">
-                <div class="layer">
-                    <h3>Machine Learning Model</h3>
-                    <p>Built a wine quality prediction model using algorithms in machine learning.</p>
-                    <a onclick="alert('That is all for now.')" href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-3.png" alt="">
-                <div class="layer">
-                    <h3>Copywriting</h3>
-                    <p>Creating copy for products and services which convert into high sales.</p>
-                    <a onclick="alert('That is all for now.')" href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    
-                </div>
-            </div>
+            <br><br>
+            <!-- <a onclick="alert('That is all for now.')" href="#" class="btn">See more</a> -->
         </div>
-        <a onclick="alert('That is all for now.')" href="#" class="btn">See more</a>       
     </div>
-</div>
 
-<!-- <div id="portfolio">
+    <!-- <div id="portfolio">
     <div class="container">
         <h1 class="sub-title">My Work</h1> 
         <div class="work-list">
@@ -167,72 +196,85 @@
     </div>
 </div> -->
 
-<!-- ------------------------contact--------------------- -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i> ashishkananconnect@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> on demand request</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/ashishkananxx/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/kanan_ashish"><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/kanan.ashish/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/ashish-kanan-159109288/"><i class="fa-brands fa-linkedin"></i></a>
+    <!-- ------------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ashishkananconnect@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> on demand request</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ashishkananxx/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/kanan_ashish"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/kanan.ashish/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ashish-kanan-159109288/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="yo/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
-                <a href="yo/my-cv.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
 
 
-                </form>
-                <span id="msg"></span>
+                    </form>
+                    <span id="msg"></span>
+                </div>
             </div>
         </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Ashish Kanan <i class="fa-solid fa-thumbs-up"></i> All Rights Reserved</p>
+        </div>
     </div>
-    <div class="copyright">
-        <p>Copyright © 2024 Ashish Kanan  <i class="fa-solid fa-thumbs-up"></i>  All Rights Reserved</p>
-    </div>
-</div>
 
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-            for(tablink of tablinks){
+    <script>
+        //type animation code starts here
+        var options = {
+            strings: ["a Full Stack Developer.", "a Copywriter.","an AI Engineer", "a Lifelong Learner."],
+            typeSpeed: 50, // Speed in milliseconds for each character
+            backSpeed: 30, // Speed for deleting text
+            loop: true // Loop the animation
+        };
+
+        var typed = new Typed("#typing", options);
+        //type animation code ends here
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
-            
+
         }
-    
+
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwpKOXMPURwZ16deS57w3lZUkAceff_9fNjrmK6VDAz3RUPJtd2AqZpQLhT1PDmf7lJ/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-    
-</script> 
+
+    </script>
 </body>
+
 </html>
