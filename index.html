@@ -14,15 +14,16 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="yo/newlogo.png" alt="logo">
-                <ul>
+                <img src="yo/logo-removebg-preview.png" alt="logo">
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <h1>Hi, I'm <span>Ashish </span><br>Kanan From India</h1>
@@ -275,6 +276,14 @@
                 })
                 .catch(error => console.error('Error!', error.message))
         })
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0px";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
 
     </script>
 </body>
